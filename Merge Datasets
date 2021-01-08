@@ -9,24 +9,15 @@ run;
 
 **libname chap1  'C:\UC Berkley\Summer 2016\Chapter 1';
 libname chap1 'H:\Data\My Documents\SFO Risk\quigleym\TIME\UC Berkley\Summer 2016\Chapter 1'; 
-
-
 run;
 
   %macro skipit;
-
-
  data chap1.icu;
   set icu;
-
   run;
-
   %mend skipit;
 
-
 **Step 2:  We select some data from ICU;
-
-
 proc sql;
  select age, gender, race,
    age/10 as age_decades
@@ -34,13 +25,9 @@ from chap1.icu
 where age >= 20
 ;
 quit;
-
 run;
 
-
 **Step 3:  Order by Age;
-
-
 proc sql;
  select age, gender, race,
    age/10 as age_decades
@@ -49,12 +36,9 @@ where age >= 20
 order by age;
 ;
 quit;
-
 run;
 
-
 **Step 3:  Order by column location;
-
 
 proc sql;
  select age, gender, race,
@@ -64,23 +48,15 @@ where age >= 20
 order by 1,3;
 ;
 quit;
-
 run;
 
-
-
 ** Step 4: Data From Multiple Tables;
-
 **Step4a: Create two tables;
-
   *** Lets bring in two sets of data associated with the burns;
   *** We will first have to create the two data sets then merge them together;
-
 %macro skipit;
-
  data chap1.burns;
   set burns;
-
 run;
 
 data chap1.burns_part1;
@@ -103,15 +79,12 @@ FLAME
 run;
 
 %mend skipit;
-
 run;
-
 
 %mend;
 
 
 **Step 4b: Match the two tables together;
-
 proc sql;
  select a.*,
          b.*
@@ -120,18 +93,13 @@ from chap1.burns_part1 a,
  where a.id = b.id
 order by a.id
 ;
-
 quit;
-
 run;
 
 
 
 ** Step 5: Summarizing groups of data;
-
-
 **Step 5a: Create table burns_sql;
-
 
 proc sql;
 create table burns_sql as

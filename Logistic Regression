@@ -5,33 +5,24 @@ run;
 'H:\Data\My Documents\SFO Risk\quigleym\TIME\UC Berkley\Logistic Reg & Survival Analysis\For Students\Logistic\Chapter 8';
 
 libname chap8 'C:\UC Berkley\Logistic Reg & Survival Analysis\For Students\Logistic\Chapter 8';
-
-
-
 run;
 
 %macro skipit;
-
 run;
-
 data chap8.lowbirth;
     set lowbirth;
 
   data chap8.placement;
    set placement;
-
 run;
-
 %mend;
 
  data lowbirth;
    set chap8.lowbirth;
-
    run;
 
  data placement;
   set chap8.placement;
-
   run;
 
   proc format;
@@ -70,7 +61,6 @@ run;
 
 
 **Step 2c: Match results using the link functin GLOGIT;
-
 
 proc logistic data = placement;
   class place3 (ref='0') viol (ref='0');
@@ -404,7 +394,7 @@ options mprint symbolgen;
 
 %macro skipit;
 
-*); */; /*í*/ /*î*/; %mend;
+*); */; /*‚Äô*/ /*‚Äù*/; %mend;
 
 %mend skipit;
 

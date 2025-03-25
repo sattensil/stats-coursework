@@ -66,3 +66,6 @@ Thumbs.db
 sign_oppty_bridge_old.sql
 rb_business_moves_edits.sql
 2020.08.22*
+
+# Exclude all SQL files
+*.sql

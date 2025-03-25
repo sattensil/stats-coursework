@@ -16,9 +16,9 @@ The following projects represent my original work completed during my master's p
 - **[Time Series Analysis](Townsend_Scarlett_Stat6610_hw8.R)**: Time series modeling and forecasting techniques.
 - **[Multivariate Analysis](Townsend_Scarlett_Stat6610_hw9.R)**: Implementation of multivariate statistical methods.
 
-### SQL & Data Engineering
-- **[Campaign Analytics](2020.08.16%20Campaign%20Touches%20Streamlined.sql)**: SQL implementation for marketing campaign attribution and analysis.
-- **[Web Analytics Processing](02_Sign_Web_Data%20v1.1.sql)**: Data processing pipeline for web analytics data.
+### Data Engineering
+- **Campaign Analytics**: SQL implementation for marketing campaign attribution and analysis.
+- **Web Analytics Processing**: Data processing pipeline for web analytics data.
 
 ## Repository Highlights
 
@@ -37,11 +37,11 @@ The following projects represent my original work completed during my master's p
 - **Bootstrap Methods**: Implementation of [bootstrap resampling](prob10.29boot.R) for confidence interval estimation.
 - **Convolution and Distribution Functions**: Custom implementations of [probability distributions](Convolution.R) and [convolution operations](Intro%20to%20Probability.R).
 
-### Data Engineering & SQL
+### Data Engineering
 - **Complex SQL Queries**: Enterprise-level SQL queries for data extraction and transformation, including:
-  - [Campaign analytics and attribution modeling](2020.08.16%20Campaign%20Touches%20Streamlined.sql)
-  - [Web analytics data processing](02_Sign_Web_Data%20v1.1.sql)
-- **Data Transformation**: SQL scripts demonstrating [ETL processes](weekly_script_business_moves_bkp.sql) and [data warehouse design principles](cstack.sql).
+  - Campaign analytics and attribution modeling
+  - Web analytics data processing
+- **Data Transformation**: SQL scripts demonstrating ETL processes and data warehouse design principles.
 
 ## Technical Skills Demonstrated
 
@@ -51,7 +51,7 @@ The following projects represent my original work completed during my master's p
 - **SAS**: Statistical analysis and data management
   - Applied in [final.sas](final.sas) and SAS Advanced Programs
 - **SQL**: Complex data querying and database management
-  - Enterprise-level implementations in [2020.05.01.sql](2020.05.01.sql)
+  - Enterprise-level implementations for data analytics
 - **Python**: Data processing and machine learning implementations
 
 ### Statistical Methods

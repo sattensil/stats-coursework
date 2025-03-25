@@ -60,3 +60,9 @@ Thumbs.db
 # Specific files to exclude
 *demandbase*
 01_Demandbase_Profile.sql
+
+# Enterprise stage references
+*mci_enterprise_stage*
+sign_oppty_bridge_old.sql
+rb_business_moves_edits.sql
+2020.08.22*

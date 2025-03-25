@@ -16,10 +16,6 @@ The following projects represent my original work completed during my master's p
 - **[Time Series Analysis](Townsend_Scarlett_Stat6610_hw8.R)**: Time series modeling and forecasting techniques.
 - **[Multivariate Analysis](Townsend_Scarlett_Stat6610_hw9.R)**: Implementation of multivariate statistical methods.
 
-### Data Engineering
-- **Campaign Analytics**: SQL implementation for marketing campaign attribution and analysis.
-- **Web Analytics Processing**: Data processing pipeline for web analytics data.
-
 ## Repository Highlights
 
 ### Advanced Statistical Algorithms
@@ -76,18 +72,18 @@ This repository serves as both a learning resource and a demonstration of applie
 - Detailed comments explaining statistical concepts (see [Matrix Multiplication Example](MatrixMultandEigenstructure.R))
 - Visualizations of complex algorithms (see [K-means Visualization](Kmeans.R))
 - Step-by-step implementations of statistical methods (see [Bootstrap Methods](prob10.29boot.R))
-- Real-world applications of theoretical concepts (see [Campaign Analytics](2020.08.16%20Campaign%20Touches%20Streamlined.sql))
+- Real-world applications of theoretical concepts
 
 ## Professional Applications
 
 The techniques demonstrated in this repository have direct applications in:
 
 - **Data Science and Analytics**: [Classification](TestEnvironmentDetectMisclass.R), [Regression](regressionmidterm.R)
-- **Business Intelligence**: [SQL Data Transformation](2020.05.01.sql), [Campaign Analysis](2020.08.16%20Campaign%20Touches%20Streamlined.sql)
+- **Business Intelligence**: SQL Data Transformation, Campaign Analysis
 - **Predictive Modeling**: [Time Series](timeseries.R), [Multivariate Analysis](mvn.R)
 - **Statistical Research**: [Numerical Methods](Numerical%20Issues.R), [Probability Distributions](Convolution.R)
 - **Machine Learning Engineering**: [K-means](Kmeans.R), [Naive Bayes](NaiveBayes%20-%20HW%20%233.R)
-- **Data-Driven Decision Making**: [Business Analytics](2020.08.17%20CEO%20Data.sql), [Attribution Modeling](2020.08.22%20Critical%20Path%20Campaign%20Exposure.sql)
+- **Data-Driven Decision Making**: Business Analytics, Attribution Modeling
 
 ---
 

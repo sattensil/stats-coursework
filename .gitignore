@@ -56,3 +56,7 @@ Thumbs.db
 *.dat
 *.db
 *.sqlite
+
+# Specific files to exclude
+*demandbase*
+01_Demandbase_Profile.sql

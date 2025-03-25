@@ -39,7 +39,6 @@ The following projects represent my original work completed during my master's p
 
 ### Data Engineering & SQL
 - **Complex SQL Queries**: Enterprise-level SQL queries for data extraction and transformation, including:
-  - [Demandbase profile creation](01_Demandbase_Profile.sql) for business intelligence
   - [Campaign analytics and attribution modeling](2020.08.16%20Campaign%20Touches%20Streamlined.sql)
   - [Web analytics data processing](02_Sign_Web_Data%20v1.1.sql)
 - **Data Transformation**: SQL scripts demonstrating [ETL processes](weekly_script_business_moves_bkp.sql) and [data warehouse design principles](cstack.sql).

@@ -2,6 +2,24 @@
 
 This repository contains a comprehensive collection of my master's level coursework in computational statistics, showcasing both tutorial implementations and original work. The code demonstrates proficiency in statistical computing, data analysis, machine learning, and SQL-based data engineering.
 
+## Original Projects
+
+The following projects represent my original work completed during my master's program:
+
+### Data Analysis & Visualization
+- **[Weather Data Analysis](Townsend_Scarlett_Stat6610_project1.R)**: Interactive visualization of weather data comparing temperature differences between cities using R's leaflet and ggplot2 packages.
+- **[Flight Delay Prediction](Project1.R)**: Analysis of flight data to predict arrival delays using kNN classification and regression trees.
+- **[Insurance Cost Modeling](Final.R)**: Comprehensive regression analysis of health insurance costs using various transformations and model selection techniques.
+
+### Statistical Computing
+- **[Statistical Methods Implementation](Townsend_Scarlett_Stat6610_hw4.R)**: Original implementation of statistical methods for data analysis.
+- **[Time Series Analysis](Townsend_Scarlett_Stat6610_hw8.R)**: Time series modeling and forecasting techniques.
+- **[Multivariate Analysis](Townsend_Scarlett_Stat6610_hw9.R)**: Implementation of multivariate statistical methods.
+
+### SQL & Data Engineering
+- **[Campaign Analytics](2020.08.16%20Campaign%20Touches%20Streamlined.sql)**: SQL implementation for marketing campaign attribution and analysis.
+- **[Web Analytics Processing](02_Sign_Web_Data%20v1.1.sql)**: Data processing pipeline for web analytics data.
+
 ## Repository Highlights
 
 ### Advanced Statistical Algorithms
@@ -30,8 +48,11 @@ This repository contains a comprehensive collection of my master's level coursew
 
 ### Languages & Tools
 - **R**: Advanced statistical computing, data visualization, and machine learning
+  - Original implementations in [Project1.R](Project1.R), [Final.R](Final.R), and [Townsend_Midterm.R](Townsend_Midterm.R)
 - **SAS**: Statistical analysis and data management
+  - Applied in [final.sas](final.sas) and SAS Advanced Programs
 - **SQL**: Complex data querying and database management
+  - Enterprise-level implementations in [2020.05.01.sql](2020.05.01.sql)
 - **Python**: Data processing and machine learning implementations
 
 ### Statistical Methods
